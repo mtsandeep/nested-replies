@@ -1,0 +1,79 @@
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+p {
+	margin: 0 0 5px;
+}
+.post-wrapper {
+	margin: 20px;
+	background: #eee;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.post-wrapper h1 {
+	font-size: 20px;
+	margin: 0 0 20px;
+	font-weight: 400;
+}
+
+.post-wrapper input[type=text],
+.post-wrapper textarea {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 5px 10px;
+	width: 100%;
+	margin: 0 0 10px;
+}
+.post-wrapper textarea {
+	height: 3em;
+}
+.field-wrapper {
+	display: flex;
+}
+
+.btn {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.post-content {
+	flex: 1;
+}
+.avatar-wrapper {
+	max-width: 50px;
+	flex-shrink: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.avatar-wrapper img {
+	width: 100%;
+	border-radius: 4px;
+	box-shadow: 0 2px 6px #ccc;
+}
+.post {
+	display: flex;
+	margin: 0 0 20px;
+}
+.posts .post:last-child {
+	margin: 0;
+}
+.comments {
+	margin-top: 20px;
+}
+.username {
+	color: #0d67a9;
+}
+.reply-form {
+	margin: 20px 0 0;
+}
+.link,
+.link:visited {
+	color: #999;
+	text-decoration: none;
+}
+.link:hover {
+	border-bottom: 1px dashed #999;
+}

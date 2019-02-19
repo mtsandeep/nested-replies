@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Post your status</title>
+        <script defer src="main.js"></script>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="post-wrapper">
+                <h1>Update your status</h1>
+                <form id="post-form" class="post-form form">
+                    <div class="field-wrapper">
+                        <textarea name="post" placeholder="Start writing..." required></textarea>
+                    </div>           
+                    <div class="field-wrapper">
+                        <input name="username" type="text" placeholder="username" required value="test user"/>
+                        <input class="btn" type="submit" value="Post" />
+                    </div>
+                </form>
+                
+                <div id="posts" class="posts"></div>
+            </div>
+        </div>
+    </body>
+</html>
